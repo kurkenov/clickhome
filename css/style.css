@@ -1,0 +1,67 @@
+/* Variables */
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --black2: #444444;
+    --grey: #E1E1E1;
+    --grey2: #A6A6A6;
+    --grey3: #C1C1C1;
+    --grey4: #F2F2F2;
+    --grey5: #D7DCDF;
+    --grey6: #ABABAB;
+    --grey7: #D5D5D5;
+    --light-dark: #283136;
+    --dark-grey: #666666;
+    --light-grey: #DFDFDF;
+    --red: #FB565A;
+    --red2: #E74246;
+    --red3: #D7373B;
+    --light-backgroud: #EEEEEE;
+    --green: #00CA74;
+    --green2: #00BC6C;
+    --green3: #00AA62;
+    --orange: #EFC84A;
+    --orange2: #EAB534;
+    --orange3: #E5A722;
+}
+
+
+/* Global */
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    color: var(--black);
+    font-weight: normal;
+    background-color: var(--white);
+    height: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    display: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
